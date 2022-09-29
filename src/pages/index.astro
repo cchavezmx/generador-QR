@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<div class="min-h-screen grid place-content-center">
+		<main class="bg-white rounded-xl w-80 p-4 flex flex-col gap-4">
+			<picture class="bg-blue-400 rounded-2xl">
+				<img class="rounded-2xl" src="/image-qr-code.png">
+			</picture>
+			<h1 class="text-xl font-bold text-center">Improvment your front-ed skills by building products</h1>
+			<form>
+				<input class="border-2 px-4 pv-2 rounded-full" type="url" placeholder="http://...">
+			</form>
+			<p class="text-base text-gray-500 px-5">
+				Scan the QR to visit Fronted Mentor and take your coding skills to the next level
+			</p>
+		</main>
+	</div>
+</Layout>
